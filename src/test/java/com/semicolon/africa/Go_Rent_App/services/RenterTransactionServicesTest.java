@@ -15,26 +15,34 @@ import java.math.BigDecimal;
 import static org.junit.Assert.assertNotNull;
 
 @SpringBootTest
-public class RentalTransactionServicesTest {
+public class RenterTransactionServicesTest {
 
     @Autowired
     private EventProductServiceImpl eventProductService;
 
     @Test
-    public void testThatUserCanAddRental(){
+    public void testThatUserCanAddProduct(){
         EventProductRequest request = buildRequest();
         EventProduct response = eventProductService.createEventProduct(request);
         assertNotNull(response);
    }
+
+   @Test
+   public void testTHatUserCanUpdateProduct(){
+
+   }
+
    private EventProductRequest buildRequest(){
         EventProductRequest product = new EventProductRequest();
-        product.setUserEmail("Kimdhaviex@gmail.com");
         product.setProductName("Photographic Camera");
         product.setProductCategory(Category.MEDIA);
         product.setPrice(BigDecimal.valueOf(10000));
-        product.setDescription("I would like to get this camera");
+        product.setDescription("New Camera for sale");
         return product;
     }
 
+//    private UpdateProductRequest updateProductRequest(){
+//
+//    }
 
 }
