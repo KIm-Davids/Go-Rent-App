@@ -6,17 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="aa0fed7f-d7b9-4e32-b0b1-841dd9029bbe" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/Go_Rent_App/dtos/response/EventProductResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/Go_Rent_App/dtos/response/EventProductResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/Go_Rent_App/dtos/response/UserResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/Go_Rent_App/dtos/response/UserResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/Go_Rent_App/dtos/request/EventProductRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/Go_Rent_App/dtos/request/EventProductRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/Go_Rent_App/dtos/request/UserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/Go_Rent_App/dtos/request/CreateUserRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/Go_Rent_App/models/EventProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/Go_Rent_App/models/EventProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/Go_Rent_App/models/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/Go_Rent_App/models/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/Go_Rent_App/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/Go_Rent_App/models/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/Go_Rent_App/repository/TransactionRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/Go_Rent_App/repository/TransactionRepo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/Go_Rent_App/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/Go_Rent_App/repository/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/Go_Rent_App/services/EventProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/Go_Rent_App/services/EventProductServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/Go_Rent_App/services/UserServicesImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/Go_Rent_App/services/UserServicesImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/semicolon/africa/Go_Rent_App/services/RenterTransactionServicesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/semicolon/africa/Go_Rent_App/services/RenterTransactionServicesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/semicolon/africa/Go_Rent_App/services/UserServicesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/semicolon/africa/Go_Rent_App/services/UserServicesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +24,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -57,6 +54,7 @@
     "JUnit.RenterTransactionServicesTest.testTHatUserCanUpdateProduct.executor": "Run",
     "JUnit.RenterTransactionServicesTest.testThatUserCanAddProduct.executor": "Run",
     "JUnit.RenterTransactionServicesTest.testThatUserCanAddRental.executor": "Run",
+    "JUnit.UserServicesTest.testThatUpdateUser.executor": "Run",
     "JUnit.UserServicesTest.testThatUserCanRegister.executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
@@ -65,7 +63,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.GoRentAppApplication.executor": "Run",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "kim-branch",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -75,7 +73,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.RenterTransactionServicesTest.testThatUserCanAddProduct">
+  <component name="RunManager" selected="JUnit.UserServicesTest.testThatUpdateUser">
     <configuration name="RenterTransactionServicesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Go-Rent-App" />
       <extension name="coverage">
@@ -123,7 +121,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RenterTransactionServicesTest.testThatUserCanAddRental" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserServicesTest.testThatUpdateUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Go-Rent-App" />
       <extension name="coverage">
         <pattern>
@@ -132,8 +130,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.semicolon.africa.Go_Rent_App.services" />
-      <option name="MAIN_CLASS_NAME" value="com.semicolon.africa.Go_Rent_App.services.RenterTransactionServicesTest" />
-      <option name="METHOD_NAME" value="testThatUserCanAddRental" />
+      <option name="MAIN_CLASS_NAME" value="com.semicolon.africa.Go_Rent_App.services.UserServicesTest" />
+      <option name="METHOD_NAME" value="testThatUpdateUser" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -170,21 +168,21 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.UserServicesTest.testThatUpdateUser" />
       <item itemvalue="JUnit.RenterTransactionServicesTest" />
       <item itemvalue="JUnit.RenterTransactionServicesTest.testTHatUserCanUpdateProduct" />
       <item itemvalue="JUnit.RenterTransactionServicesTest.testThatUserCanAddProduct" />
-      <item itemvalue="JUnit.RenterTransactionServicesTest.testThatUserCanAddRental" />
       <item itemvalue="JUnit.UserServicesTest.testThatUserCanRegister" />
       <item itemvalue="Spring Boot.GoRentAppApplication" />
       <item itemvalue="Spring Boot.GoRentAppApplication (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserServicesTest.testThatUpdateUser" />
         <item itemvalue="JUnit.RenterTransactionServicesTest.testThatUserCanAddProduct" />
-        <item itemvalue="JUnit.UserServicesTest.testThatUserCanRegister" />
         <item itemvalue="JUnit.RenterTransactionServicesTest.testTHatUserCanUpdateProduct" />
+        <item itemvalue="JUnit.UserServicesTest.testThatUserCanRegister" />
         <item itemvalue="JUnit.RenterTransactionServicesTest" />
-        <item itemvalue="JUnit.RenterTransactionServicesTest.testThatUserCanAddRental" />
       </list>
     </recent_temporary>
   </component>
@@ -205,6 +203,8 @@
       <option name="presentableId" value="Default" />
       <updated>1733173258992</updated>
       <workItem from="1733173261468" duration="22079000" />
+      <workItem from="1733239420609" duration="192000" />
+      <workItem from="1733239706961" duration="11799000" />
     </task>
     <servers />
   </component>

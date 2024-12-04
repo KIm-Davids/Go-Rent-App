@@ -13,6 +13,7 @@ public class EventProduct extends Product {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     @ManyToOne(cascade = CascadeType.PERSIST)
+    @JoinColumn(name="user_id")
     private User user;
 
 }
