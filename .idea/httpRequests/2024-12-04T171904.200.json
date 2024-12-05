@@ -1,0 +1,11 @@
+{
+  "data": {
+    "isAvailable": null,
+    "address": null,
+    "price": null,
+    "user": null,
+    "userConsent": null,
+    "message": "Created Product Successfully"
+  },
+  "successful": true
+}

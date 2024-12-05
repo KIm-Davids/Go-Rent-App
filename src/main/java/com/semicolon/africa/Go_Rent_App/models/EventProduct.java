@@ -14,6 +14,6 @@ public class EventProduct extends Product {
     private Long id;
     @ManyToOne(cascade = CascadeType.PERSIST)
     @JoinColumn(name="user_id")
-    private User user;
+    private User user_id;
 
 }

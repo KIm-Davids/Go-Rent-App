@@ -1,6 +1,5 @@
 package com.semicolon.africa.Go_Rent_App.models;
 
-import com.semicolon.africa.Go_Rent_App.constants.Location;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
@@ -17,10 +16,11 @@ public class User {
     private Long id;
     @OneToMany
     private List<Transaction> transaction;
-    private Location address;
+    private String address;
     private String firstName;
     private String lastName;
     private String phoneNumber;
     @Column(unique = true)
     private String email;
+    private String isLoggedIn;
 }

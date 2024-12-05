@@ -1,7 +1,10 @@
 package com.semicolon.africa.Go_Rent_App.services;
 
 import com.semicolon.africa.Go_Rent_App.dtos.request.CreateUserRequest;
+import com.semicolon.africa.Go_Rent_App.dtos.request.LoginUserRequest;
 import com.semicolon.africa.Go_Rent_App.dtos.request.UpdateUserRequest;
+import com.semicolon.africa.Go_Rent_App.dtos.response.CreateUserResponse;
+import com.semicolon.africa.Go_Rent_App.dtos.response.LoginUserResponse;
 import com.semicolon.africa.Go_Rent_App.dtos.response.UpdateUserResponse;
 import com.semicolon.africa.Go_Rent_App.models.User;
 import org.junit.jupiter.api.Test;
@@ -19,8 +22,9 @@ public class UserServicesTest {
     @Test
     public void testThatUserCanRegister(){
         CreateUserRequest user = buildUser();
-        User createdUser = userServices.createUser(user);
+        CreateUserResponse createdUser = userServices.createUser(user);
         assertNotNull(createdUser);
+//        assertThrows
     }
 
     @Test
@@ -30,12 +34,20 @@ public class UserServicesTest {
         assertNotNull(response);
     }
 
+    @Test
+    public void testThatUserCanLogin(){
+        LoginUserRequest request = new LoginUserRequest();
+        LoginUserResponse response = userServices.loginUser(request);
+        assertNotNull(response);
+    }
+
     private CreateUserRequest buildUser(){
         CreateUserRequest user = new CreateUserRequest();
         user.setEmail("kim@gmail.com");
         user.setFirstName("Kim");
         user.setLastName("Davids");
         user.setPhoneNumber("09055429111");
+        user.setAddress("Yaba Lagos, Nigeria");
         return user;
     }
 

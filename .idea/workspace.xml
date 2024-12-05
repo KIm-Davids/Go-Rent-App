@@ -5,13 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa0fed7f-d7b9-4e32-b0b1-841dd9029bbe" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/Go_Rent_App/dtos/response/DeleteProductResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/Go_Rent_App/exception/IsAlreadyLoggedInException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/Go_Rent_App/validations/validations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/Go_Rent_App/dtos/request/EventProductRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/Go_Rent_App/dtos/request/EventProductRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/Go_Rent_App/dtos/request/UserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/Go_Rent_App/dtos/request/CreateUserRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/Go_Rent_App/constants/Location.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/Go_Rent_App/dtos/request/CreateUserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/Go_Rent_App/dtos/request/CreateUserRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/Go_Rent_App/dtos/request/UpdateProductRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/Go_Rent_App/dtos/request/UpdateProductRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/Go_Rent_App/dtos/response/EventProductResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/Go_Rent_App/dtos/response/EventProductResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/Go_Rent_App/dtos/response/UserResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/Go_Rent_App/dtos/response/UserResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/Go_Rent_App/models/EventProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/Go_Rent_App/models/EventProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/Go_Rent_App/models/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/Go_Rent_App/models/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/Go_Rent_App/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/Go_Rent_App/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/Go_Rent_App/repository/EventProductRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/Go_Rent_App/repository/EventProductRepo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/Go_Rent_App/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/Go_Rent_App/repository/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/Go_Rent_App/services/EventProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/Go_Rent_App/services/EventProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/Go_Rent_App/services/EventProductServiceInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/Go_Rent_App/services/EventProductServiceInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/Go_Rent_App/services/UserServicesImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/Go_Rent_App/services/UserServicesImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/Go_Rent_App/services/UserServicesInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/Go_Rent_App/services/UserServicesInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/semicolon/africa/Go_Rent_App/services/RenterTransactionServicesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/semicolon/africa/Go_Rent_App/services/RenterTransactionServicesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/semicolon/africa/Go_Rent_App/services/UserServicesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/semicolon/africa/Go_Rent_App/services/UserServicesTest.java" afterDir="false" />
     </list>
@@ -23,8 +35,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -49,12 +61,24 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "HTTP Request.generated-requests | #630.executor": "Run",
+    "HTTP Request.generated-requests | #631.executor": "Run",
+    "HTTP Request.generated-requests | #632.executor": "Run",
+    "HTTP Request.generated-requests | #633.executor": "Run",
+    "HTTP Request.generated-requests | #634.executor": "Run",
+    "HTTP Request.generated-requests | #636.executor": "Run",
+    "HTTP Request.generated-requests | #641.executor": "Run",
+    "HTTP Request.generated-requests | #645.executor": "Run",
+    "HTTP Request.generated-requests | #649.executor": "Run",
     "JUnit.RentalTransactionServicesTest.testThatUserCanAddRental.executor": "Run",
     "JUnit.RenterTransactionServicesTest.executor": "Run",
     "JUnit.RenterTransactionServicesTest.testTHatUserCanUpdateProduct.executor": "Run",
     "JUnit.RenterTransactionServicesTest.testThatUserCanAddProduct.executor": "Run",
     "JUnit.RenterTransactionServicesTest.testThatUserCanAddRental.executor": "Run",
+    "JUnit.RenterTransactionServicesTest.testThatUserCanDeleteProduct.executor": "Run",
+    "JUnit.RenterTransactionServicesTest.testToViewAllUserProduct.executor": "Run",
     "JUnit.UserServicesTest.testThatUpdateUser.executor": "Run",
+    "JUnit.UserServicesTest.testThatUserCanLogin.executor": "Run",
     "JUnit.UserServicesTest.testThatUserCanRegister.executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
@@ -65,6 +89,7 @@
     "Spring Boot.GoRentAppApplication.executor": "Run",
     "git-widget-placeholder": "kim-branch",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/DELL/IdeaProjects/Blog",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -73,37 +98,18 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.UserServicesTest.testThatUpdateUser">
-    <configuration name="RenterTransactionServicesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Go-Rent-App" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.semicolon.africa.Go_Rent_App.services.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.semicolon.africa.Go_Rent_App.services" />
-      <option name="MAIN_CLASS_NAME" value="com.semicolon.africa.Go_Rent_App.services.RenterTransactionServicesTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+  <component name="RunManager" selected="Spring Boot.GoRentAppApplication">
+    <configuration name="generated-requests | #636" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="636" requestIdentifier="#636" runType="Run single request">
+      <method v="2" />
     </configuration>
-    <configuration name="RenterTransactionServicesTest.testTHatUserCanUpdateProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Go-Rent-App" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.semicolon.africa.Go_Rent_App.services.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.semicolon.africa.Go_Rent_App.services" />
-      <option name="MAIN_CLASS_NAME" value="com.semicolon.africa.Go_Rent_App.services.RenterTransactionServicesTest" />
-      <option name="METHOD_NAME" value="testTHatUserCanUpdateProduct" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="generated-requests | #641" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="641" requestIdentifier="#641" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #645" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="645" requestIdentifier="#645" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #649" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="649" requestIdentifier="#649" runType="Run single request">
+      <method v="2" />
     </configuration>
     <configuration name="RenterTransactionServicesTest.testThatUserCanAddProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Go-Rent-App" />
@@ -116,38 +122,6 @@
       <option name="PACKAGE_NAME" value="com.semicolon.africa.Go_Rent_App.services" />
       <option name="MAIN_CLASS_NAME" value="com.semicolon.africa.Go_Rent_App.services.RenterTransactionServicesTest" />
       <option name="METHOD_NAME" value="testThatUserCanAddProduct" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserServicesTest.testThatUpdateUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Go-Rent-App" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.semicolon.africa.Go_Rent_App.services.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.semicolon.africa.Go_Rent_App.services" />
-      <option name="MAIN_CLASS_NAME" value="com.semicolon.africa.Go_Rent_App.services.UserServicesTest" />
-      <option name="METHOD_NAME" value="testThatUpdateUser" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserServicesTest.testThatUserCanRegister" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Go-Rent-App" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.semicolon.africa.Go_Rent_App.services.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.semicolon.africa.Go_Rent_App.services" />
-      <option name="MAIN_CLASS_NAME" value="com.semicolon.africa.Go_Rent_App.services.UserServicesTest" />
-      <option name="METHOD_NAME" value="testThatUserCanRegister" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -168,21 +142,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.UserServicesTest.testThatUpdateUser" />
-      <item itemvalue="JUnit.RenterTransactionServicesTest" />
-      <item itemvalue="JUnit.RenterTransactionServicesTest.testTHatUserCanUpdateProduct" />
+      <item itemvalue="HTTP Request.generated-requests | #636" />
+      <item itemvalue="HTTP Request.generated-requests | #641" />
+      <item itemvalue="HTTP Request.generated-requests | #645" />
+      <item itemvalue="HTTP Request.generated-requests | #649" />
       <item itemvalue="JUnit.RenterTransactionServicesTest.testThatUserCanAddProduct" />
-      <item itemvalue="JUnit.UserServicesTest.testThatUserCanRegister" />
       <item itemvalue="Spring Boot.GoRentAppApplication" />
       <item itemvalue="Spring Boot.GoRentAppApplication (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserServicesTest.testThatUpdateUser" />
+        <item itemvalue="HTTP Request.generated-requests | #649" />
+        <item itemvalue="HTTP Request.generated-requests | #645" />
         <item itemvalue="JUnit.RenterTransactionServicesTest.testThatUserCanAddProduct" />
-        <item itemvalue="JUnit.RenterTransactionServicesTest.testTHatUserCanUpdateProduct" />
-        <item itemvalue="JUnit.UserServicesTest.testThatUserCanRegister" />
-        <item itemvalue="JUnit.RenterTransactionServicesTest" />
+        <item itemvalue="HTTP Request.generated-requests | #641" />
+        <item itemvalue="HTTP Request.generated-requests | #636" />
       </list>
     </recent_temporary>
   </component>
@@ -205,6 +179,7 @@
       <workItem from="1733173261468" duration="22079000" />
       <workItem from="1733239420609" duration="192000" />
       <workItem from="1733239706961" duration="11799000" />
+      <workItem from="1733299550689" duration="27702000" />
     </task>
     <servers />
   </component>

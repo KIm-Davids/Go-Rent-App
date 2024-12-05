@@ -1,7 +1,6 @@
 package com.semicolon.africa.Go_Rent_App.models;
 
 import com.semicolon.africa.Go_Rent_App.constants.Category;
-import com.semicolon.africa.Go_Rent_App.constants.Location;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
