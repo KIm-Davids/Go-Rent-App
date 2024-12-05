@@ -1,12 +1,10 @@
 package com.semicolon.africa.Go_Rent_App.services;
 
 
-import com.semicolon.africa.Go_Rent_App.dtos.request.EventProductRequest;
-import com.semicolon.africa.Go_Rent_App.dtos.request.CreateUserRequest;
-import com.semicolon.africa.Go_Rent_App.dtos.request.LoginUserRequest;
-import com.semicolon.africa.Go_Rent_App.dtos.request.UpdateUserRequest;
+import com.semicolon.africa.Go_Rent_App.dtos.request.*;
 import com.semicolon.africa.Go_Rent_App.dtos.response.CreateUserResponse;
 import com.semicolon.africa.Go_Rent_App.dtos.response.LoginUserResponse;
+import com.semicolon.africa.Go_Rent_App.dtos.response.LogoutUserResponse;
 import com.semicolon.africa.Go_Rent_App.dtos.response.UpdateUserResponse;
 import com.semicolon.africa.Go_Rent_App.exception.IsAlreadyLoggedInException;
 import com.semicolon.africa.Go_Rent_App.exception.ProductNotFoundException;
@@ -58,6 +56,24 @@ public class UserServicesImpl implements UserServicesInterface{
         }
         LoginUserResponse response = new LoginUserResponse();
         response.setMessage("User Successfully logged in");
+        return response;
+    }
+
+
+    public LogoutUserResponse logoutUser(LogoutUserRequest request){
+        User user = userRepository.findUserById(request.getId());
+        if(user == null){
+            throw new UserNotFoundException("User cannot be found\nPlease try again later");
+        }
+        if(user.getIsLoggedIn().equals("true")){
+            user.setIsLoggedIn("false");
+            userRepository.save(user);
+        }
+        else{
+            throw new IsAlreadyLoggedInException("Please login !!!");
+        }
+        LogoutUserResponse response = new LogoutUserResponse();
+        response.setMessage("User Successfully logged out");
         return response;
     }
 

@@ -13,5 +13,6 @@ public class CreateUserRequest {
     private String email;
     private String address;
     private String password;
+    private String isLoggedIn;
 
 }
