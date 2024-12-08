@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa0fed7f-d7b9-4e32-b0b1-841dd9029bbe" name="Changes" comment="" />
+    <list default="true" id="aa0fed7f-d7b9-4e32-b0b1-841dd9029bbe" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/Go_Rent_App/dtos/request/CreateUserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/Go_Rent_App/dtos/request/CreateUserRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/Go_Rent_App/services/UserServicesImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/semicolon/africa/Go_Rent_App/services/UserServicesImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/semicolon/africa/Go_Rent_App/services/UserServicesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/semicolon/africa/Go_Rent_App/services/UserServicesTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +25,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -26,9 +35,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2pg2B51R6Wl4uw6pMBKbUtC4JOP" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -36,13 +45,36 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "HTTP Request.generated-requests | #630.executor": "Run",
+    "HTTP Request.generated-requests | #631.executor": "Run",
+    "HTTP Request.generated-requests | #632.executor": "Run",
+    "HTTP Request.generated-requests | #633.executor": "Run",
+    "HTTP Request.generated-requests | #634.executor": "Run",
+    "HTTP Request.generated-requests | #636.executor": "Run",
+    "HTTP Request.generated-requests | #641.executor": "Run",
+    "HTTP Request.generated-requests | #645.executor": "Run",
+    "HTTP Request.generated-requests | #649.executor": "Run",
+    "HTTP Request.generated-requests | #650.executor": "Run",
+    "JUnit.RentalTransactionServicesTest.testThatUserCanAddRental.executor": "Run",
+    "JUnit.RenterTransactionServicesTest.executor": "Run",
+    "JUnit.RenterTransactionServicesTest.testTHatUserCanUpdateProduct.executor": "Run",
+    "JUnit.RenterTransactionServicesTest.testThatUserCanAddProduct.executor": "Run",
+    "JUnit.RenterTransactionServicesTest.testThatUserCanAddRental.executor": "Run",
+    "JUnit.RenterTransactionServicesTest.testThatUserCanDeleteProduct.executor": "Run",
+    "JUnit.RenterTransactionServicesTest.testToViewAllUserProduct.executor": "Run",
+    "JUnit.UserServicesTest.testThatUpdateUser.executor": "Run",
+    "JUnit.UserServicesTest.testThatUserCanLogin.executor": "Run",
+    "JUnit.UserServicesTest.testThatUserCanRegister.executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.GoRentAppApplication.executor": "Run",
+    "git-widget-placeholder": "kim-branch",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/DELL/IdeaProjects/Blog",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -51,7 +83,55 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.UserServicesTest.testThatUserCanRegister">
+    <configuration name="generated-requests | #645" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="645" requestIdentifier="#645" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #649" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="649" requestIdentifier="#649" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #650" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="650" requestIdentifier="#650" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="UserServicesTest.testThatUserCanLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Go-Rent-App" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.semicolon.africa.Go_Rent_App.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.semicolon.africa.Go_Rent_App.services" />
+      <option name="MAIN_CLASS_NAME" value="com.semicolon.africa.Go_Rent_App.services.UserServicesTest" />
+      <option name="METHOD_NAME" value="testThatUserCanLogin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServicesTest.testThatUserCanRegister" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Go-Rent-App" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.semicolon.africa.Go_Rent_App.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.semicolon.africa.Go_Rent_App.services" />
+      <option name="MAIN_CLASS_NAME" value="com.semicolon.africa.Go_Rent_App.services.UserServicesTest" />
+      <option name="METHOD_NAME" value="testThatUserCanRegister" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoRentAppApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Go-Rent-App" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="main.java.com.semicolon.africa.Go_Rent_App.GoRentAppApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GoRentAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="Go-Rent-App" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.semicolon.africa.Go_Rent_App.GoRentAppApplication" />
@@ -59,6 +139,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="HTTP Request.generated-requests | #645" />
+      <item itemvalue="HTTP Request.generated-requests | #649" />
+      <item itemvalue="HTTP Request.generated-requests | #650" />
+      <item itemvalue="JUnit.UserServicesTest.testThatUserCanLogin" />
+      <item itemvalue="JUnit.UserServicesTest.testThatUserCanRegister" />
+      <item itemvalue="Spring Boot.GoRentAppApplication" />
+      <item itemvalue="Spring Boot.GoRentAppApplication (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserServicesTest.testThatUserCanRegister" />
+        <item itemvalue="JUnit.UserServicesTest.testThatUserCanLogin" />
+        <item itemvalue="HTTP Request.generated-requests | #650" />
+        <item itemvalue="HTTP Request.generated-requests | #649" />
+        <item itemvalue="HTTP Request.generated-requests | #645" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -77,6 +175,9 @@
       <option name="presentableId" value="Default" />
       <updated>1733173258992</updated>
       <workItem from="1733173261468" duration="22079000" />
+      <workItem from="1733239420609" duration="192000" />
+      <workItem from="1733239706961" duration="11799000" />
+      <workItem from="1733299550689" duration="31685000" />
     </task>
     <servers />
   </component>

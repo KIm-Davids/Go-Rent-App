@@ -1,10 +1,7 @@
 package com.semicolon.africa.Go_Rent_App.models;
 
 import com.semicolon.africa.Go_Rent_App.constants.Category;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import jakarta.persistence.MappedSuperclass;
+import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -22,4 +19,5 @@ public abstract class Product {
     private String description;
     private BigDecimal price;
     private Category productCategory;
+
 }

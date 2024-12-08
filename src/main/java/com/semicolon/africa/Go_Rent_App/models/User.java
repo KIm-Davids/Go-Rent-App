@@ -1,10 +1,6 @@
 package com.semicolon.africa.Go_Rent_App.models;
 
-import com.semicolon.africa.Go_Rent_App.constants.Consent;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.OneToMany;
-import jakarta.persistence.OneToOne;
+import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -16,15 +12,15 @@ import java.util.List;
 public class User {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     @OneToMany
-    private List<RentalTransaction> transaction;
-    private Consent userConsent;
-    private Location address;
+    private List<Transaction> transaction;
+    private String address;
     private String firstName;
     private String lastName;
     private String phoneNumber;
+    @Column(unique = true)
     private String email;
-    @OneToMany
-    private List<EventProduct> product;
+    private String isLoggedIn;
 }

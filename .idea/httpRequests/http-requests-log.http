@@ -1,0 +1,531 @@
+DELETE http://localhost:8080/eventproduct/delete-product
+Content-Type: application/json
+Content-Length: 13
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id": 1
+}
+
+<> 2024-12-05T040728.200.json
+
+###
+
+PATCH http://localhost:8080/eventproduct
+Content-Type: application/json
+Content-Length: 163
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 1,
+  "id": 1,
+  "productName": "Wig Maker",
+  "description": "A new way of designing your hairstyle",
+  "price": 9000,
+  "productCategory": "MEDIA"
+}
+
+<> 2024-12-04T235305.200.json
+
+###
+
+PATCH http://localhost:8080/eventproduct
+Content-Type: application/json
+Content-Length: 163
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 1,
+  "id": 1,
+  "productName": "Wig Maker",
+  "description": "A new way of designing your hairstyle",
+  "price": 9000,
+  "productCategory": "MEDIA"
+}
+
+<> 2024-12-04T235124.404.json
+
+###
+
+POST http://localhost:8080/eventproduct/create_product
+Content-Type: application/json
+Content-Length: 143
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 1,
+  "id": 2,
+  "productName": "Camera",
+  "description": "New XCamera for rent",
+  "price": 1000,
+  "productCategory": "MEDIA"
+}
+
+<> 2024-12-04T172326.502.json
+
+###
+
+POST http://localhost:8080/eventproduct/create_product
+Content-Type: application/json
+Content-Length: 143
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 1,
+  "id": 1,
+  "productName": "Camera",
+  "description": "New XCamera for rent",
+  "price": 1000,
+  "productCategory": "MEDIA"
+}
+
+<> 2024-12-04T171904.200.json
+
+###
+
+POST http://localhost:8080/eventproduct/create_product
+Content-Type: application/json
+Content-Length: 145
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 1,
+  "id": 1,
+  "productName": "Camera",
+  "description": "New XCamera for rent",
+  "price": {1000},
+  "productCategory": "MEDIA"
+}
+
+<> 2024-12-04T171847.400.json
+
+###
+
+POST http://localhost:8080/eventproduct/create_product
+Content-Type: application/json
+Content-Length: 142
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 1,
+  "id": 1,
+  "productName": "Camera",
+  "description": "New Camera for rent",
+  "price": 1000,
+  "productCategory": "MEDIA"
+}
+
+<> 2024-12-04T171019.502.json
+
+###
+
+POST http://localhost:8080/eventproduct/create_product
+Content-Type: application/json
+Content-Length: 142
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 1,
+  "id": 1,
+  "productName": "Camera",
+  "description": "New Camera for rent",
+  "price": 1000,
+  "productCategory": "MEDIA"
+}
+
+<> 2024-12-04T170931.502.json
+
+###
+
+POST http://localhost:8080/eventproduct/create_product
+Content-Type: application/json
+Content-Length: 142
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 1,
+  "id": 1,
+  "productName": "Camera",
+  "description": "New Camera for rent",
+  "price": 1000,
+  "productCategory": "MEDIA"
+}
+
+<> 2024-12-04T170822.502.json
+
+###
+
+POST http://localhost:8080/eventproduct/create_product
+Content-Type: application/json
+Content-Length: 142
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 1,
+  "id": 1,
+  "productName": "Camera",
+  "description": "New Camera for rent",
+  "price": 1000,
+  "productCategory": "MEDIA"
+}
+
+<> 2024-12-04T170554.502.json
+
+###
+
+POST http://localhost:8080/register_user
+Content-Type: application/json
+Content-Length: 131
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "firstName": "Kim",
+  "lastName": "Davids",
+  "phoneNumber": "032423242",
+  "email": "kim@gmail.com",
+  "address": "321 yaba"
+}
+
+<> 2024-12-04T170317.200.json
+
+###
+
+POST http://localhost:8080/register_user
+Content-Type: application/json
+Content-Length: 131
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "firstName": "Kim",
+  "lastName": "Davids",
+  "phoneNumber": "032423242",
+  "email": "kim@gmail.com",
+  "address": "321 yaba"
+}
+
+<> 2024-12-04T165730.502.json
+
+###
+
+POST http://localhost:8080/register_user
+Content-Type: application/json
+Content-Length: 131
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "firstName": "Kim",
+  "lastName": "Davids",
+  "phoneNumber": "032423242",
+  "email": "kim@gmail.com",
+  "address": "321 yaba"
+}
+
+<> 2024-12-04T165538.502.json
+
+###
+
+POST http://localhost:8080/register_user
+Content-Type: application/json
+Content-Length: 131
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "firstName": "Kim",
+  "lastName": "Davids",
+  "phoneNumber": "032423242",
+  "email": "kim@gmail.com",
+  "address": "321 yaba"
+}
+
+<> 2024-12-04T165422.404.json
+
+###
+
+POST http://localhost:8080/eventproduct/create_product
+Content-Type: application/json
+Content-Length: 142
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 1,
+  "id": 1,
+  "productName": "canopy",
+  "description": "New canopy for rent",
+  "price": 1000,
+  "productCategory": "MEDIA"
+}
+
+<> 2024-12-04T164200.502.json
+
+###
+
+POST http://localhost:8080/eventproduct/create_product
+Content-Type: application/json
+Content-Length: 142
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 1,
+  "id": 1,
+  "productName": "canopy",
+  "description": "New canopy for rent",
+  "price": 1000,
+  "productCategory": "MEDIA"
+}
+
+<> 2024-12-04T164021.502.json
+
+###
+
+POST http://localhost:8080/eventproduct/create_product
+Content-Type: application/json
+Content-Length: 115
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 0,
+  "id": 0,
+  "productName": "",
+  "description": "",
+  "price": {},
+  "productCategory": "MEDIA"
+}
+
+<> 2024-12-04T155611.404.json
+
+###
+
+POST http://localhost:8080/eventproduct/create_product
+Content-Type: application/json
+Content-Length: 115
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 1,
+  "id": 1,
+  "productName": "",
+  "description": "",
+  "price": {},
+  "productCategory": "MEDIA"
+}
+
+<> 2024-12-04T155547.404.json
+
+###
+
+POST http://localhost:8080/eventproduct/create_product
+Content-Type: application/json
+Content-Length: 115
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 1,
+  "id": 1,
+  "productName": "",
+  "description": "",
+  "price": {},
+  "productCategory": "MEDIA"
+}
+
+<> 2024-12-04T155540.404.json
+
+###
+
+POST http://localhost:8080/eventproduct/create_product
+Content-Type: application/json
+Content-Length: 115
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 1,
+  "id": 1,
+  "productName": "",
+  "description": "",
+  "price": {},
+  "productCategory": "MEDIA"
+}
+
+<> 2024-12-04T155452.404.json
+
+###
+
+POST http://localhost:8080/eventproduct/create_product
+Content-Type: application/json
+Content-Length: 115
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 1,
+  "id": 0,
+  "productName": "",
+  "description": "",
+  "price": {},
+  "productCategory": "MEDIA"
+}
+
+<> 2024-12-04T155409.404.json
+
+###
+
+POST http://localhost:8080/create_product
+Content-Type: application/json
+Content-Length: 115
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 2,
+  "id": 0,
+  "productName": "",
+  "description": "",
+  "price": {},
+  "productCategory": "MEDIA"
+}
+
+<> 2024-12-04T155240.400.json
+
+###
+
+POST http://localhost:8080/create_product
+Content-Type: application/json
+Content-Length: 115
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 0,
+  "id": 0,
+  "productName": "",
+  "description": "",
+  "price": {},
+  "productCategory": "MEDIA"
+}
+
+<> 2024-12-04T155204.400.json
+
+###
+
+POST http://localhost:8080/create_product
+Content-Type: application/json
+Content-Length: 115
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 1,
+  "id": 1,
+  "productName": "",
+  "description": "",
+  "price": {},
+  "productCategory": "MEDIA"
+}
+
+<> 2024-12-04T155101.400.json
+
+###
+
+POST http://localhost:8080/create_product
+Content-Type: application/json
+Content-Length: 115
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 0,
+  "id": 0,
+  "productName": "",
+  "description": "",
+  "price": {},
+  "productCategory": "MEDIA"
+}
+
+<> 2024-12-04T154903.400.json
+
+###
+
+POST http://localhost:8080/create_product
+Content-Type: application/json
+Content-Length: 132
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 0,
+  "id": 1,
+  "productName": "Canopy",
+  "description": "Rent canopy",
+  "price": {},
+  "productCategory": "MEDIA"
+}
+
+<> 2024-12-04T154626.400.json
+
+###
+
+POST http://localhost:8080/create_product
+Content-Type: application/json
+Content-Length: 132
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 1,
+  "id": 1,
+  "productName": "Canopy",
+  "description": "Rent canopy",
+  "price": {},
+  "productCategory": "MEDIA"
+}
+
+<> 2024-12-04T154610.400.json
+
+###
+
